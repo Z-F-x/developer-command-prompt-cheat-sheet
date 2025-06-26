@@ -1,4 +1,9 @@
 # Developer Command Prompt Cheat Sheet
+Note:
+```
+REM This line is just a comment
+copy source.txt destination.txt  REM still a comment after the command
+```
 
 ## Create a new empty file in current directory
 ```type nul > fileName.txt```
@@ -10,18 +15,17 @@
 ```del fileName.txt```
 
 ## Directory Operations
-```cmd
-REM Create a new directory
-mkdir NewFolder
 
-REM Remove a directory and everything inside it (use with care)
+Create a new directory
+```cmd
+mkdir NewFolder
+```
+
+Remove a directory and everything inside it (use with care)
+```cmd
 rd /s /q OldFolder
 ```
 
-```
-REM This line is just a comment
-copy source.txt destination.txt  REM still a comment after the command
-```
 
 ## Copy & Move
 ```cmd
