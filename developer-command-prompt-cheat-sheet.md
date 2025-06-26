@@ -88,7 +88,18 @@ Get syntax help for any command
 <command> /?
 ```
 
-REM Example
-```cmd
-rd /?
+## rd
+
+`rd /?` (or the synonym `rmdir /?`) tells **cmd.exe** to print the built-in help for the **remove-directory** command. You’ll see usage syntax and the available switches—most notably:
+
 ```
+RD [/S] [/Q] <folder>
+
+  /S  Removes all files and subfolders (recursive delete).
+  /Q  Quiet mode—no “Are you sure?” prompt.
+```
+
+So that little `/ ?` suffix is a handy way to get on-demand documentation for almost any Command-Prompt command.
+
+The preceding `REM Example` line is just a comment explaining that the line below is an example of using the `/ ?` help trick.
+
