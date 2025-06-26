@@ -1,9 +1,4 @@
-# Developer Command Prompt Cheat Sheet
-Note on `REM`:
-```cmd
-REM This line is just a comment
-copy source.txt destination.txt  REM still a comment after the command
-```
+# Developer Command Prompt
 
 ## Create a new empty file in current directory
 ```cmd
@@ -81,13 +76,6 @@ Show full path to an executable found in PATH
 where cl
 ```
 
-## Quick Help
-
-Get syntax help for any command
-```cmd
-<command> /?
-```
-
 ## rd
 
 `rd /?` (or the synonym `rmdir /?`) tells **cmd.exe** to print the built-in help for the **remove-directory** command. You’ll see usage syntax and the available switches—most notably:
@@ -98,8 +86,20 @@ RD [/S] [/Q] <folder>
   /S  Removes all files and subfolders (recursive delete).
   /Q  Quiet mode—no “Are you sure?” prompt.
 ```
+# Developer Command Prompt Cheat Sheet
+Note on `REM`:
+```cmd
+REM This line is just a comment
+copy source.txt destination.txt  REM still a comment after the command
+```
 
 So that little `/ ?` suffix is a handy way to get on-demand documentation for almost any Command-Prompt command.
-
 The preceding `REM Example` line is just a comment explaining that the line below is an example of using the `/ ?` help trick.
+
+## Quick Help
+
+Get syntax help for any command
+```cmd
+<command> /?
+```
 
