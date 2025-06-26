@@ -18,6 +18,11 @@ REM Remove a directory and everything inside it (use with care)
 rd /s /q OldFolder
 ```
 
+```
+REM This line is just a comment
+copy source.txt destination.txt  REM still a comment after the command
+```
+
 ## Copy & Move
 ```cmd
 REM Copy a file
