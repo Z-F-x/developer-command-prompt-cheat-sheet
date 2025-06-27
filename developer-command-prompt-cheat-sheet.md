@@ -103,3 +103,10 @@ Get syntax help for any command
 <command> /?
 ```
 
+## Navigation
+
+Navigate to root directory of current drive
+```cmd
+cd \
+```
+
