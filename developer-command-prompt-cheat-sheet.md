@@ -39,6 +39,11 @@ Move or rename a file
 move source.txt NewFolder\source.txt
 ```
 
+## Search for specific file type in current folder recursively (checking every subfolder in current folder).
+```cmd
+dir /S /B *.ext
+```
+
 ## Search
 
 Search for text inside files, recursively and case-insensitive
