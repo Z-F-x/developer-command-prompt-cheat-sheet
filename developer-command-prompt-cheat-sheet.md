@@ -16,12 +16,14 @@ del fileName.txt
 ```
 ## Delete a folder and all it's content 
 ```cmd
-rd /s /q
+rd /s /q folderName
 ```
 or
 ```cmd
-rmdir /s /q
+rmdir /s /q folderName
 ```
+Note:  `"C:\path\to\folderName"` works also.
+
 ## Directory Operations
 
 Create a new directory
