@@ -14,7 +14,14 @@ dir /s /b *.c
 ```cmd
 del fileName.txt
 ```
-
+## Delete a folder and all it's content 
+```cmd
+rd /s /q
+```
+or
+```cmd
+rmdir /s /q
+```
 ## Directory Operations
 
 Create a new directory
