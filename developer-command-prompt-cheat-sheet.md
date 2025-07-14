@@ -64,11 +64,11 @@ Copy a folder with it's content
 ```cmd
 Xcopy C:\source D:\source /E /H /C /I
 ```
-
-`/E` – Copies all subdirectories, including any that are empty.\
-`/H` – Copies hidden and system files as well.\
-`/C` – Continues copying even if errors occur.\
-`/I` – Treats the destination as a directory if it’s unclear.
+Note:
+`/E` – Copies all subdirectories, including any that are empty. 
+`/H` – Copies hidden and system files as well. 
+`/C` – Continues copying even if errors occur. 
+`/I` – Treats the destination as a directory if it’s unclear. 
 
 ## Search for specific file type in current folder recursively (checking every subfolder in current folder).
 
