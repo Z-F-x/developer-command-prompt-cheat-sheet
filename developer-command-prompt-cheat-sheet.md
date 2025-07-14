@@ -62,7 +62,7 @@ move source.txt NewFolder\source.txt
 
 Copy a folder with it's content
 ```cmd
-Xcopy C:\source D:\source /E /H /C /I
+xcopy C:\source D:\source /E /H /C /I
 ```
 Note:
 `/E` – Copies all subdirectories, including any that are empty. 
