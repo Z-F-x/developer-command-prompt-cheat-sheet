@@ -157,3 +157,9 @@ powershell -ExecutionPolicy Bypass -File "path\to\your-script.ps1"
 
 **Note:** `-ExecutionPolicy Bypass:`
 This flag allows the script to run even if your system has restricted execution policies (common on corporate machines). It does not permanently change system settings.
+
+## Output list of all running processes
+
+```cmd
+tasklist > "%USERPROFILE%\Desktop\running_processes.txt"
+```
