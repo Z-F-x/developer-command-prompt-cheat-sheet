@@ -61,14 +61,16 @@ move source.txt NewFolder\source.txt
 ```
 
 Copy a folder with it's content
+
 ```cmd
 xcopy C:\source D:\source /E /H /C /I
 ```
+
 Note:
-`/E` – Copies all subdirectories, including any that are empty. 
-`/H` – Copies hidden and system files as well. 
-`/C` – Continues copying even if errors occur. 
-`/I` – Treats the destination as a directory if it’s unclear. 
+`/E` – Copies all subdirectories, including any that are empty.
+`/H` – Copies hidden and system files as well.
+`/C` – Continues copying even if errors occur.
+`/I` – Treats the destination as a directory if it’s unclear.
 
 ## Search for specific file type in current folder recursively (checking every subfolder in current folder).
 
@@ -173,3 +175,15 @@ This flag allows the script to run even if your system has restricted execution 
 ```cmd
 tasklist > "%USERPROFILE%\Desktop\running_processes.txt"
 ```
+
+## Create Symbolic Links
+
+### Create symbolic link to a program that enables it to be run from any terminal path
+
+```
+mklink "C:\Windows\program.exe" "C:\path\to\target\program.exe"
+```
+
+Example:
+C:\Windows>mklink "C:\Windows\WinDir.exe" "E:\Personal\Tech\Developement\C++\windows-paths-util\WinDir.exe"
+symbolic link created for C:\Windows\WinDir.exe <<===>> E:\Personal\Tech\Developement\C++\windows-paths-util\WinDir.exe
