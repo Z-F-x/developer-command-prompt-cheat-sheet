@@ -12,6 +12,22 @@ type nul > fileName.txt
 dir /s /b *.c
 ```
 
+## Output only folders in current directory
+
+```cmd
+dir /ad /b
+```
+
+`/a:d` → filters to show only directories.
+
+`/b` → bare format (just the names, no details).
+
+### Output directories with absolute path of each directory
+
+```cmd
+for /d %i in (*) do @echo %~fi
+```
+
 ## Delete file in current directory
 
 ```cmd
